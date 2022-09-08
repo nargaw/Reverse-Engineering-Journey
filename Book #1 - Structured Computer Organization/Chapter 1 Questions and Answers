@@ -1,0 +1,13 @@
+1. Explain each of the following terms in your own words
+A. Translator: Translates a full program to a new program
+B. Interpreter: converts an instruction (section of a program) into another 
+C. Virtual Machine: A hypothetical machine that doesn't physically exist but built on an actual machine that exists and is able to execute similarly
+
+2. What is the difference b/n interpretation and translation?
+Translator: The instruction/program written in some level is translated/converted to a new instruction/program compatible with desired level. The new program is the one used. 
+Interpreter: Sections of one program - instructions are coverted to new instructions at desired level but a new program doesn't need to be generated. Instructions are executed step by step.
+
+3. Is it conceivable for a compiler to generate output for level 1 instead of level 2? Discuss the pros and cons of this proposal
+-It is possible to generate output for level 1 instead of level 2. 
+-Advantage: no need for L1 machine
+-Disadvantage: too expensive to construct out of electronic circuits
