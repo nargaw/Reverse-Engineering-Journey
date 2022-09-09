@@ -13,3 +13,4 @@ Interpreter: Sections of one program - instructions are coverted to new instruct
 -Disadvantage: too expensive to construct out of electronic circuits
 
 4. Can you imagine any multilevel computer in which the device level and digital logic levels were not lowest levels? Explain
+-Hardware and circuits must be the lowest level with transistors and gates. Unless another computer is being simulated on an already existing computer - the device level of the non-physical computer could be simulated at higher levels of the existing computer.  
