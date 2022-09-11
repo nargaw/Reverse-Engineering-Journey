@@ -13,4 +13,28 @@ Interpreter: Sections of one program - instructions are coverted to new instruct
 -Disadvantage: too expensive to construct out of electronic circuits
 
 4. Can you imagine any multilevel computer in which the device level and digital logic levels were not lowest levels? Explain
--Hardware and circuits must be the lowest level with transistors and gates. Unless another computer is being simulated on an already existing computer - the device level of the non-physical computer could be simulated at higher levels of the existing computer.  
+-Hardware and circuits must be the lowest level with transistors and gates. Unless another computer is being simulated on an already existing computer - the device level of the non-physical computer could be simulated at higher levels of the existing computer. 
+
+5. Consider a computer with identical interpreters at levels 1, 2, and 3. It takes an interpreter n  instructions to fetch, examine, and execute one instruction. A level 1 instruction takes k nanoseconds to execute. How long does it take for an instruction at levels 2, 3, and 4?
+  
+  Level 4 - (k) * (n^3)
+  
+  Level 3 - (k) * (n^2)
+  
+  Level 2 - (k) * (n) instructions
+  
+  Level 1 - (k) ns to execute 
+  
+  6. Consider a multilevel computer in which all levels are different. Each level has instructions that are m times as powerful as those of the level below it; that is, one level r instruction can do the work of m level r - 1. If a level 1 program requires k seconds to run, how long would equivalent programs take at levels 2, 3, and 4 assuming n level r instructions are required to interpret a single r + 1 instruction?
+  
+  Level 4 - (k) * (n^3) / (m^3)
+  
+  Level 3 - (k) * (n^2) / (m^2)
+  
+  Level 2 - (k) * (n) / (m)
+  
+  Level 1 - (k) time to execute
+  
+  7. Some instructions at the operating system machine level are indentical to conventional machine language instructions. These instructions are carried out directly by the microprogram rather than the operating system. In light of your answer to the preceding problem, why do you think this is the case?
+  
+  -Interpretation at each level from higher levels to lower levels adds up exponentially. So if interpretion could be avoided it would save a lot more time
