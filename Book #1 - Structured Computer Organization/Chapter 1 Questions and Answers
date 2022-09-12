@@ -46,5 +46,7 @@ Interpreter: Sections of one program - instructions are coverted to new instruct
   -A program that does arithmetic using array values stores the values in memory and may iterate to use the stored value in memory to be used somewhere else in the program
   
   10. The performance ratio of the 360 model 75 is 50x that of 360 model 30, yet the cycle time is only 5x as fast. How do you account for this discrepancy?
-  -
+  -The memory capacity increased from 64(30) -> 256 (40, 50) -> 512 (65), meaning the process capactity per each cycle time is much greater.
+  
+  11. Two basic system designs are shown in Fig 1-5 and Fig 1-6. Describe how input/output might occur in each system. Which one has a the potential for better overall system performace?
   
