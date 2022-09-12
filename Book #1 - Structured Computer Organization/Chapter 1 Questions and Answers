@@ -36,5 +36,15 @@ Interpreter: Sections of one program - instructions are coverted to new instruct
   Level 1 - (k) time to execute
   
   7. Some instructions at the operating system machine level are indentical to conventional machine language instructions. These instructions are carried out directly by the microprogram rather than the operating system. In light of your answer to the preceding problem, why do you think this is the case?
-  
   -Interpretation at each level from higher levels to lower levels adds up exponentially. So if interpretion could be avoided it would save a lot more time
+  
+  8. In what sense are hardware and software equivalent? Not equivalent?
+  -Equivalent: such that the hardware level can be simulated in software and the software level can be organized at the hardware level
+  -Not equivalent: Hardware is physical material(circuits, cables, power supplies etc) and Software is not physical(algorithms and programs)
+  
+  9. One of the consequences of von Neumann's idea to store the program in memory is that programs can be modified, just like data. Can you think of an example where this facility might have been useful? (Hint: Think about doing arithmetic on arrays)
+  -A program that does arithmetic using array values stores the values in memory and may iterate to use the stored value in memory to be used somewhere else in the program
+  
+  10. The performance ratio of the 360 model 75 is 50x that of 360 model 30, yet the cycle time is only 5x as fast. How do you account for this discrepancy?
+  -
+  
