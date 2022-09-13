@@ -49,4 +49,6 @@ Interpreter: Sections of one program - instructions are coverted to new instruct
   -The memory capacity increased from 64(30) -> 256 (40, 50) -> 512 (65), meaning the process capactity per each cycle time is much greater.
   
   11. Two basic system designs are shown in Fig 1-5 and Fig 1-6. Describe how input/output might occur in each system. Which one has a the potential for better overall system performace?
+  -Fig 1.5 - The original von Neumann Machine: With a central accumulator that handled io that stored memory 
+  -Fig 1.6 - The PDP-8 Omnibus - parallel wires used to connnect the components of a computer - major adoption and better overall performance
   
