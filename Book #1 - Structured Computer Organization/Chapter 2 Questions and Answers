@@ -1,0 +1,13 @@
+1. What is the purpose of step 2 in the list of sec. 2.1.1? What would happen if this step is omitted?
+-Instruction execution
+Step 1: Fetch the next instruction from memory into the instruction register
+Step 2: Change the program counter to point to the following instruction
+Step 3: Determine the type of instruction just fetched
+Step 4: If the instruction uses data into memory, determine where they are
+Step 5: Fetch the data, if any, into internal CPU registers
+Step 6: Execute the instruction
+Step 7: Store result in the proper place
+Step 8: Go to step 1 to begin executing the following instruction
+Ans: If step 2 is omitted the program will repeat the previous instruction instead of the current instruction and be stuck in an infinite loop
+
+2. A certain computation is highly sequential-that is, each step depends on the one preceding it. 
