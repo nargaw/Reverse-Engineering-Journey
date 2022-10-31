@@ -10,4 +10,4 @@ Step 7: Store result in the proper place
 Step 8: Go to step 1 to begin executing the following instruction
 Ans: If step 2 is omitted the program will repeat the previous instruction instead of the current instruction and be stuck in an infinite loop
 
-2. A certain computation is highly sequential-that is, each step depends on the one preceding it. 
+2. A certain computation is highly sequential-that is, each step depends on the one preceding it.  
